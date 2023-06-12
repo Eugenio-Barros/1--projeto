@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Header */
@@ -23,8 +23,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: "Courier New", Courier, monospace;
-  background: #23232e;
+  /* font-family: "Courier New", Courier, monospace; */
+  background: #bc0f0f;
   height: 8vh;
 }
 
@@ -152,7 +152,6 @@ main {
     width: 350%;
     padding: 1rem;
   }
-
 }
 
 .nav-list.active {
@@ -269,16 +268,16 @@ section.module.parallax:after {
 }
 
 section.module.parallax-1 {
-  background-image: url("/imagens/fashion.jpg");
+  background-image: url("https://fundacaodogil.pt/wp-content/uploads/2022/10/MetaTag_CDP.png");
   background-position: top;
 }
 
 section.module.parallax-2 {
-  background-image: url("/imagens/fashion6.jpg");
+  background-image: url("https://fundacaodogil.pt/wp-content/uploads/2023/03/casadogil-3.png");
 }
 
 section.module.parallax-3 {
-  background-image: url("/imagens/fashion7.jpg");
+  background-image: url("	https://fundacaodogil.pt/wp-content/uploads/2023/02/crianca-com-aviao-scaled.jpg");
 }
 
 section.module.parallax h1 {
@@ -312,8 +311,8 @@ section.module.parallax p {
 
 /* footer */
 footer {
-  background-color: black;
-  color: white;
+  background-color: #84dade;
+  color: black;
   height: auto;
   width: 100%;
 }
@@ -331,7 +330,7 @@ footer {
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
-  color: white;
+  color: black;
 }
 
 .footer-content p {
@@ -342,7 +341,7 @@ footer {
 }
 
 .footer-bottom {
-  background: rgb(14, 13, 13);
+  background: #84dade;
   width: 100%;
   padding: 20px 0;
   text-align: center;
